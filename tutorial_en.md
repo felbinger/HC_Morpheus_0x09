@@ -1,4 +1,5 @@
 1. Find hidden feature (in the source code) to register a new user
+  ```html
   <!-- This feature should be disabled -->
   <div style="display:none !important;">
     <h2>User Registration</h2>
@@ -8,6 +9,7 @@
       <input type="submit" name="register" value="Register"></input>
     </form>
   </div>
+```
 
 2. Registrate a new user
    - Method 1: delete "display:none" to show the formular for registrations
