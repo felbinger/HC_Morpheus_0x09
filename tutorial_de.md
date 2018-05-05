@@ -1,4 +1,5 @@
 1. ausgeblendete Funktion zum Registrieren von neuen Benutzern finden (z.B: Quelltext).
+```html
   <!-- This feature should be disabled -->
   <div style="display:none !important;">
     <h2>User Registration</h2>
@@ -8,7 +9,7 @@
       <input type="submit" name="register" value="Register"></input>
     </form>
   </div>
-
+```
 2. Neuen User Registrieren
    - Methode 1: "display:none" entfernen und damit das Formular wieder sichtbar machen
    - Methode 2: mit curl einen POST request an die Seite senden. (siehe unten)
